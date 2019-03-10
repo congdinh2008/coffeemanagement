@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.28701.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeManagement.UI", "CoffeeManagement.UI\CoffeeManagement.UI.csproj", "{4485A17C-0840-4E9A-BFAE-9BB5541B3B48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeManagement.Models", "CoffeeManagement.Models\CoffeeManagement.Models.csproj", "{61DC2EFF-6680-42CD-8EB7-660DE69F1158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeManagement.DataAccessLayer", "CoffeeManagement.DataAccessLayer\CoffeeManagement.DataAccessLayer.csproj", "{DFEE29FB-2B01-4E13-A726-D851540D6E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeManagement.BusinessLogicLayer", "CoffeeManagement.BusinessLogicLayer\CoffeeManagement.BusinessLogicLayer.csproj", "{C8D70F03-A08B-4E94-B241-A07A4FD07FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeManagement.Common", "CoffeeManagement.Common\CoffeeManagement.Common.csproj", "{FD99634C-C2A3-4116-813B-79539A1B61F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{4485A17C-0840-4E9A-BFAE-9BB5541B3B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4485A17C-0840-4E9A-BFAE-9BB5541B3B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4485A17C-0840-4E9A-BFAE-9BB5541B3B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61DC2EFF-6680-42CD-8EB7-660DE69F1158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61DC2EFF-6680-42CD-8EB7-660DE69F1158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61DC2EFF-6680-42CD-8EB7-660DE69F1158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61DC2EFF-6680-42CD-8EB7-660DE69F1158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFEE29FB-2B01-4E13-A726-D851540D6E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEE29FB-2B01-4E13-A726-D851540D6E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEE29FB-2B01-4E13-A726-D851540D6E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEE29FB-2B01-4E13-A726-D851540D6E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D70F03-A08B-4E94-B241-A07A4FD07FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D70F03-A08B-4E94-B241-A07A4FD07FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D70F03-A08B-4E94-B241-A07A4FD07FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D70F03-A08B-4E94-B241-A07A4FD07FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD99634C-C2A3-4116-813B-79539A1B61F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD99634C-C2A3-4116-813B-79539A1B61F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD99634C-C2A3-4116-813B-79539A1B61F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD99634C-C2A3-4116-813B-79539A1B61F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
